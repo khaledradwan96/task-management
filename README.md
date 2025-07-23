@@ -1,12 +1,17 @@
-# React + Vite
+# 📝 React Task Management App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple, responsive task management application built with **React.js**. This app allows users to **add**, **edit**, **delete**, and **filter** tasks by category, with support for modal forms and optional animations using **Framer Motion**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- ✅ Create, Read, Update, and Delete (CRUD) tasks
+- 🗂️ Categorize tasks (Personal, Work, Urgent)
+- 🔍 Filter tasks by category
+- 🪟 Modal-based task form (Add / Edit)
+- 💾 Persist data using LocalStorage
+- 🎨 Tailwind CSS for layout and styling
+- ⚛️ React Hooks (useState, useEffect)
+- 💡 Optional animation with Framer Motion
+- 🧠 Simple, clean folder structure
