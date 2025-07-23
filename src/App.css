@@ -1,1 +1,37 @@
 @import "tailwindcss";
+
+.task-card {
+  background-color: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
+  padding: 16px;
+  margin-bottom: 16px;
+  border-left-width: 4px;
+  border-left-style: solid;
+  transition: 0.3s;
+}
+.task-card:hover {
+  transform: scale(1.02) translateY(-2px);
+}
+
+.task-card.work {
+  border-left-color: #38a169;
+}
+.task-card.work span {
+  background-color: #38a169;
+}
+
+.task-card.personal {
+  border-left-color: #facc15;
+}
+.task-card.personal span {
+  background-color: #facc15;
+}
+.task-card.urgent {
+  border-left-color: #dc2626;
+}
+.task-card.urgent span {
+  background-color: #dc2626;
+}
